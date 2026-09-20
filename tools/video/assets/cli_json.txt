@@ -1,0 +1,2 @@
+[+] reading sample_pcaps/synthetic.pcap -> sample_out/flows.json
+[+] flows emitted: 2 in 0.73s
