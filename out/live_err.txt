@@ -1,1 +1,0 @@
-[+] capturing on '\Device\NPF_{1E7ADCC8-7AB4-47CA-9DD6-A5F5CA928C48}' -> out/live.csv
