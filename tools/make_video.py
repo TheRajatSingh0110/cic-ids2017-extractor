@@ -414,15 +414,7 @@ class LiveScene(Scene):
 class CreditsScene(Scene):
     def paint(self, img, t):
         a, dy = appear(t, 0.0)
-        draw_text(img, (W / 2, 380 - dy), 'Thank you', FEL, 110, TXT, 'mm', a)
-        a2, dy2 = appear(t, 1.2)
-        draw_text(
-            img, (W / 2, 540 - dy2),
-            'github.com/TheRajatSingh0110/cic-ids2017-extractor', CMB, 34, BLUE, 'mm', a2)
-        a3, dy3 = appear(t, 2.1)
-        draw_text(img, (W / 2, 640 - dy3), 'Python - Scapy - Npcap - CICFlowMeter v4 reference', FE, 28, MUT, 'mm', a3)
-        a4, dy4 = appear(t, 2.9)
-        draw_text(img, (W / 2, 720 - dy4), 'generated with opencode', FE, 24, MUT, 'mm', a4)
+        draw_text(img, (W / 2, H / 2 - dy), 'Thank You', FEL, 110, TXT, 'mm', a)
 
 
 SCENES = [
